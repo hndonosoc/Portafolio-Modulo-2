@@ -1,0 +1,50 @@
+body {
+  background: #f5ede0;
+  color: #3e2723;
+}
+header {
+  background: #4e342e;
+}
+
+.hero {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25));
+  color: white;
+  padding: 3rem 0;
+  border-radius: 8px;
+}
+.card-img-top {
+  height: 170px;
+  object-fit: cover;
+}
+.badge {
+  font-size: 0.85rem;
+}
+
+.card {
+  border: 1px solid #d7ccc8;
+}
+
+.btn-primary {
+  background: #6d4c41 !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #8d6e63 !important;
+}
+
+.btn-primary,
+.btn-success,
+.btn-outline-primary {
+  background-color: #6d4c41 !important;
+  border-color: #6d4c41 !important;
+  color: #f5ede0 !important;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-outline-primary:hover {
+  background-color: #8d6e63 !important;
+  border-color: #8d6e63 !important;
+  color: white !important;
+}
